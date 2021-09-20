@@ -1,0 +1,103 @@
+/* ------------------------------------------------- */
+
+/* -------------- */
+/*     GENERAL    */
+/* -------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------- */
+
+/* ------------- */
+/*     HEADER    */
+/* ------------- */
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin: 1% auto;
+}
+
+#logo{
+	width:10vw;
+}
+
+#navTop{
+    display:flex;
+    justify-content: space-between;
+    background-color:  #85929e;
+    width:80%;
+    margin-top: 3vh;
+}
+
+#ulTop{
+    display:flex;
+    list-style-type: none;    
+}
+
+.menuBoxes{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #85929e;
+}
+
+.menuBoxes:hover{
+    background-color:#e5e2e2;
+}
+
+#menuBox{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    background-color: #ccb861;
+}
+
+#menuBox:hover{
+    background-color: #baa64e;
+}
+
+/* ------------------------------------------------- */
+
+/* -------------- */
+/*     CONTENU    */
+/* -------------- */
+
+main{
+    width:80%;
+    margin: 2vh auto;
+}
+
+fieldset{
+	text-align:center;
+	background: pink;
+}
+
+p{
+	text-align:left;
+	padding: 0.5% 2% 0.5% 2%;
+}

@@ -1,0 +1,49 @@
+
+.tabTabTab
+{
+	border: solid 1px black;
+	margin:0;
+	padding:0;
+}
+
+fieldset#toto.box{
+	display:block;
+    width:30%;
+	perspective: 300px;
+    transform-style: preserve-3d;
+    transition: transform 2500ms ease;
+}
+
+fieldset#toto.box:hover{
+	transform: rotateY(1080deg);
+}
+
+body{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+legend{
+	text-align:center;
+}
+
+div{
+	display:flex;
+}
+
+fieldset#box{
+	display:block;
+	width:30%;
+}
+
+fieldset.lolo{
+	height:30vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:50%;
+	
+}

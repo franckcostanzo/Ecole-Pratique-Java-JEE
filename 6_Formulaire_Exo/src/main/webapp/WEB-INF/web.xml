@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>6_Formulaire_Exo</display-name>
+  
+  <servlet>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>controller.Accueil</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PageFormulaireRempli</servlet-name>
+    <servlet-class>controller.PageFormulaireRempli</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/Accueil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PageFormulaireRempli</servlet-name>
+    <url-pattern>/filmRegister</url-pattern>
+  </servlet-mapping>
+    
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/css/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
